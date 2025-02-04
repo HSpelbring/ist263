@@ -19,3 +19,35 @@
     </p>
 </body>
 </html>
+
+<h2>Get in Touch</h2>
+    <form action="" method="post">
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="contact-method">Preferred Contact Method:</label><br>
+        <select id="contact-method" name="contact-method">
+            <option value="email">Email</option>
+            <option value="phone">Phone</option>
+            <option value="linkedin">LinkedIn</option>
+        </select><br><br>
+
+        <label>Are you a current student?</label><br>
+        <input type="radio" id="yes" name="student" value="yes">
+        <label for="yes">Yes</label>
+        <input type="radio" id="no" name="student" value="no">
+        <label for="no">No</label><br><br>
+
+        <label for="message">Your Message:</label><br>
+        <textarea id="message" name="message" rows="5" cols="40" required></textarea><br><br>
+
+        <label>
+            <input type="checkbox" name="subscribe" value="yes">
+            Subscribe to our newsletter
+        </label><br><br>
+
+        <input type="submit" value="Send Message">
+    </form>
+
+</body>
+</html>
