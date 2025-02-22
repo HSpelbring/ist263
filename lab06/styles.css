@@ -12,9 +12,12 @@ h2 {
     font-size: 2em;
 }
 
-.evenrow {
+table tr.evenrow {
     background-color: #f2f2f218;
 }
+
+table tr:not(.evenrow) {
+    background-color: #ffffff;
 
 table {
     width: 60%;
