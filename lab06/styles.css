@@ -32,3 +32,11 @@ tr.evenrow {
 tr:hover {
     background-color: #e0f7fa; 
 }
+
+h1 {
+    color: #5F9EA0;
+}
+
+h2 {
+    color: #ff0000;
+}
