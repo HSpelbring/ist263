@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/style.css">
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .row {
+            display: flex;
+            justify-content: space-between;
+        }
+        .column {
+            flex: 1;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="../lab07/index.html">Home</a> |
+        <a href="../lab06/skills.html">Skills</a> |
+        <a href="../lab06/contact.html">Contact</a>
+    </nav>
+
+    <h1>Contact</h1>
+    
+    <div class="container">
+       
+        <div class="row">
+            <div class="column">
+                <p><strong>Address:</strong> Syracuse University, 900 South Crouse Ave, Syracuse, NY 13244</p>
+            </div>
+            <div class="column">
+                <p><strong>Email:</strong> <a href="mailto:haydenspelbring@gmail.com">Hayden Spelbring Mail</a></p>
+                <p>
+                    <a href="https://www.linkedin.com/in/hayden-spelbring/" target="_blank">
+                        My LinkedIn Profile<br>
+                        <img src="../images/FinalizedSizeLinkedin.png" alt="LinkedIn Logo" width="100">
+                    </a>
+                </p>
+            </div>
+        </div>
+
+       
+        <div class="row">
+            <div class="column">
+                <h2>Get in Touch</h2>
+                <form action="." method="post">
+                    <label for="name">Your Name:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+    
+                    <label for="contact-method">Preferred Contact Method:</label><br>
+                    <select id="contact-method" name="contact-method">
+                        <option value="email">Email</option>
+                        <option value="phone">Phone</option>
+                        <option value="linkedin">LinkedIn</option>
+                    </select><br><br>
+    
+                    <label>Are you a current student?</label><br>
+                    <input type="radio" id="yes" name="student" value="yes">
+                    <label for="yes">Yes</label>
+                    <input type="radio" id="no" name="student" value="no">
+                    <label for="no">No</label><br><br>
+    
+                    <label for="message">Your Message:</label><br>
+                    <textarea id="message" name="message" rows="5" cols="40" required></textarea><br><br>
+    
+                    <label>
+                        <input type="checkbox" name="subscribe" value="yes">
+                        Subscribe to our newsletter
+                    </label><br><br>
+    
+                    <input type="submit" value="Send Message">
+                </form>
+            </div>
+            <div class="column">
+                
+                <h2>Our Location</h2>
+                <iframe 
+                    width="100%" 
+                    height="300" 
+                    frameborder="0" 
+                    style="border:0" 
+                    src="https://www.google.com/maps/embed/v1/place?q=Syracuse+University&key=YOUR_API_KEY" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

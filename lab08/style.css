@@ -1,0 +1,40 @@
+body {
+    background-color: #0d1b2a;
+    color: #E0E1DD;
+}
+
+a {
+    color: #EDF2F4;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #778DA9;
+}
+
+nav {
+    background-color: #1B263B;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+nav a {
+    color: #E0E1DD;
+}
+
+nav a:hover {
+    background-color: #415A77;
+}
+
+footer {
+    position: relative;
+    padding: 10px;
+}
+
+.footer-copyright {
+    float: left;
+}
+
+.footer-tagline {
+    float: right;
+}
