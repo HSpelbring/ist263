@@ -40,8 +40,9 @@ footer {
     float: right;
 }
 
-.main {
+main {
     text-align: center;
+    display: flex;
 }
 
 .skill {
