@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Participation 11</title>
-    
 </head>
-<body>
+    <body>
 
-    <div id="school-name">Syracuse University</div>
-
+        <div id="school-name">Syracuse University</div>
+    
+    </body>
     <script>
-        document.getElementById("school-name").addEventListener("click", function() {
-            this.style.color = "orange"; // You can change to any color
-        });
+        document.getElementById("school-name").onclick = ChangeColor();
+        function changeColor() {
+            document.body.style.color = "#FFA500"
+            document.getElementById('school-name').innerHTML = 'Orange Nation';
+        }
+
     </script>
 
-</body>
+
 </html>
