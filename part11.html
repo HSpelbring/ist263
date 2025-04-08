@@ -4,19 +4,18 @@
     <meta charset="UTF-8">
     <title>Participation 11</title>
 </head>
-    <body>
+<body>
 
-        <div id="school-name">Syracuse University</div>
-    
-    </body>
+    <div id="school-name">Syracuse University</div>
+
     <script>
-        document.getElementById("school-name").onclick = ChangeColor();
         function changeColor() {
-            document.body.style.color = "#FFA500"
+            document.body.style.color = "#FFA500";
             document.getElementById('school-name').innerHTML = 'Orange Nation';
         }
 
+        document.getElementById("school-name").onclick = changeColor;
     </script>
 
-
+</body>
 </html>
