@@ -87,6 +87,9 @@ header {
     text-align: center;
 }
 
+.spacer {
+    height: 40px; /* Adjust spacing between Projects */
+  }  
 
 /* --- Media Query for smaller screens --- */
 @media (max-width: 768px) {
