@@ -81,6 +81,11 @@ footer {
     text-decoration: underline;
 }
 
+header {
+    padding: 20px;
+    text-align: center;
+}
+
 
 /* --- Media Query for smaller screens --- */
 @media (max-width: 768px) {
