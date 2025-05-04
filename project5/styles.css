@@ -107,6 +107,18 @@ header {
 .project-section p {
     margin-bottom: 1rem;
 }
+
+.project-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: center;
+  }
+
+.project-section ul li {
+    margin: 5px 0;
+}
+  
   
 .spacer {
     height: 40px; /* Adjust spacing between Projects */
