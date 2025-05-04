@@ -1,41 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" 
+    rel="stylesheet"
+  >
 </head>
 <body>
-    <nav>
-        <p>
-            <a href="index.html">Home</a> |
-            <a href="background.html">Background</a> |
-            <a href="blog.html">Blog</a> |
-            <a href="resume.html">Resume</a> |
-            <a href="projects.html">Projects</a>
-        </p>
-    </nav>
+  <nav aria-label="Main navigation">
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="background.html">Background</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="projects.html">Projects</a></li>
+    </ul>
+  </nav>
 
-    <header>
-        <h1>Resume</h1>
-    </header>
+  <header>
+    <h1>Resume</h1>
+  </header>
 
-    <main>
-        <section style="text-align: center; margin: 40px auto;">
-            <h2>View My Resume</h2>
-            <p>
-                <a href="ResumePNG.png" download>Click here to download my resume (PNG)</a>
-            </p>
-            <img src="ResumePNG.png" alt="Resume Image" style="max-width: 90%; height: auto;">
-        </section>
-    </main>
-    
+  <main>
+    <section class="project-section">
+      <h2>View My Resume</h2>
+      <p>
+        <a href="ResumePNG.png" download>
+          Click here to download my resume (PNG)
+        </a>
+      </p>
+      <img 
+        src="ResumePNG.png" 
+        alt="Resume Image" 
+        class="project-image"
+      >
+    </section>
+  </main>
 
-    <footer>
-        <p>&copy; 2025 Hayden Spelbring</p>
-    </footer>
+  <footer>
+    <p>&copy; 2025 Hayden Spelbring</p>
+  </footer>
 </body>
 </html>
